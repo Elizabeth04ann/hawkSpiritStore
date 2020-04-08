@@ -6,28 +6,13 @@
     <title>Hocking College Hawk Spirit store</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="bootStrapStyle.css">
-
+    <link rel = "stylesheet" href = "styles.css">
+    
     <style>
-        .navButtonCustom {
-            color: white !important;
-            font-size: 12px;
-            font-weight: bold;
-            margin-right: 12px;
-            
-
-}
-
-        .navButtonCustom2 {
-            color: black !important;
-            font-size: 12px;
-            font-weight: bold;
-            margin-right: 12px;
-            
-}
-        .navStyle {
-            background-color:white !important;
-}
+        
     </style>
+
+
 </head>
 <body>
 
@@ -113,17 +98,30 @@
           
         </div>
       </nav>
-      <canvas id = "theCanvas" width="1500" height="500" > </canvas> 
 
-      <script>
-        var linearGradient = document.getElementById("theCanvas")
-        var ctx = linearGradient.getContext("2d");
-        var gradient = ctx.createLinearGradient(0, 0, 1500, 0);
-            gradient.addColorStop(0, "green");
-            gradient.addColorStop(1, "white");
-            ctx.fillStyle = gradient;
-            ctx.fillRect(0,000,1500,500);
-      </script>
+      <div id = "blueBanner">
+          <span id = "blueBannerContent"> Hocking College <br> Hawks Spirit Store</span>          
+      </div>
+
+      <div id = "greenBanner">
+          <span id = "greenBannerContent">We are getting new <br>items this month!</span>
+      </div>
+
+    
+    <div id = "itemContainer">
+        <ul style= "list-style-type: none;">
+            <li><a href = "#">Clothing</a></li>
+            <li><a href = "#">Accessories</a></li>
+            <li><a href = "#">Supplies</a></li>
+            <li><a href = "#">Gifts</a></li>
+        </ul>
+
+    </div>     
+      
+    
+
+
+     
 
 
 
