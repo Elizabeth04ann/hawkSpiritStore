@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hocking College Hawk Spirit store</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootStrapStyle.css">
+
+    <style>
+        .navButtonCustom {
+            color: white !important;
+            font-size: 12px;
+            font-weight: bold;
+            margin-right: 12px;
+            
+
+}
+
+        .navButtonCustom2 {
+            color: black !important;
+            font-size: 12px;
+            font-weight: bold;
+            margin-right: 12px;
+            
+}
+        .navStyle {
+            background-color:white !important;
+}
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link navButtonCustom" href="#">ABOUT</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link navButtonCustom" href="#">DIRECTORY </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link navButtonCustom" href="#">BOOKSTORE <span class="sr-only">(current)</span></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link navButtonCustom" href="#">COLLEGE CREDIT PLUS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link navButtonCustom" href="#">ATHLETICS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navButtonCustom" href="#">EMAIL</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navButtonCustom" href="#">SELF-SERVICE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navButtonCustom" href="#">BLACKBOARD</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navButtonCustom" href="#">WEBADVISOR</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navButtonCustom" href="#">REGISTER</a>
+              </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light navStyle">
+        <a class="navbar-link" href="#"><img src="hocking.png" alt="HockingCollege" width="100" height="60"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link navButtonCustom2" href="#">FUTURE STUDENTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navButtonCustom2" href="#">CURRENT STUDENTS</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link navButtonCustom2" href="#">MILITARY</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link navButtonCustom2" href="#">MAJORS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navButtonCustom2" href="#">PARENTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navButtonCustom2" href="#">ALUMNI & COMMUNITY</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navButtonCustom2" href="#">FACULTY/STAFF</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navButtonCustom2" href="#">RESOURCES</a>
+              </li>
+              
+          </ul>
+          
+        </div>
+      </nav>
+      <canvas id = "theCanvas" width="1500" height="500" > </canvas> 
+
+      <script>
+        var linearGradient = document.getElementById("theCanvas")
+        var ctx = linearGradient.getContext("2d");
+        var gradient = ctx.createLinearGradient(0, 0, 1500, 0);
+            gradient.addColorStop(0, "green");
+            gradient.addColorStop(1, "white");
+            ctx.fillStyle = gradient;
+            ctx.fillRect(0,000,1500,500);
+      </script>
+
+
+
+    
+</body>
+</html>
