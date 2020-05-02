@@ -1,0 +1,19 @@
+#blueBanner {
+  background-color: #0084C9;
+}
+
+.gridColors {
+  background-color: #009E49;
+  grid-gap: 10px;
+  color: #0084C9;
+  font-family: Arial;
+  font-size: 30px;
+}
+
+.gridColors #greenban {
+  background-color: #009E49;
+  color: #FCA311;
+  font-family: Arial;
+  font-size: 30px;
+}
+/*# sourceMappingURL=hcColors.css.map */

@@ -1,0 +1,29 @@
+$hcGreen: #009E49;
+$hcBlue: #0084C9;
+$hcOrange: #FCA311;
+
+
+#blueBanner {
+ background-color: $hcBlue;
+ 
+}
+.gridColors {
+background-color: $hcGreen;
+grid-gap: 10px;
+color: $hcBlue;
+
+font: {
+    family: Arial;
+    size: 30px;
+}
+#greenban {
+background-color: $hcGreen;
+color: $hcOrange;
+    font: {
+        family: Arial;
+        size: 30px;
+    }
+
+}
+
+}

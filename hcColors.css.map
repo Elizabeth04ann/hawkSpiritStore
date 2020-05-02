@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAKA,AAAA,WAAW,CAAC;EACX,gBAAgB,EALR,OAAO;CAOf;;AACD,AAAA,WAAW,CAAC;EACZ,gBAAgB,EAVN,OAAO;EAWjB,QAAQ,EAAE,IAAI;EACd,KAAK,EAXI,OAAO;EAcZ,WAAM,EAAE,KAAK;EACb,SAAI,EAAE,IAAI;CAYb;;AAnBD,AASA,WATW,CASX,SAAS,CAAC;EACV,gBAAgB,EAnBN,OAAO;EAoBjB,KAAK,EAlBM,OAAO;EAoBV,WAAM,EAAE,KAAK;EACb,SAAI,EAAE,IAAI;CAGjB",
+    "sources": [
+        "hcColors.scss"
+    ],
+    "names": [],
+    "file": "hcColors.css"
+}
