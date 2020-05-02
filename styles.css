@@ -72,5 +72,10 @@
     color: #EEEEEE;
     }
 
-
+#blueFade {
+    position:absolute ;
+    left: 0px;
+    top:133px;
 }
+
+  
